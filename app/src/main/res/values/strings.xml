@@ -1,0 +1,22 @@
+<resources>
+    <!-- DO NOT TOUCH -->
+    <string name="app_name">Profile</string>
+    <string name="main_invalid_data">Invalid data</string>
+    <string name="main_save">Save</string>
+    <string name="main_saved_succesfully">Student saved successfully</string>
+    <string name="main_error_saving">Error saving student</string>
+    <string name="main_imgAvatar_dimensionRatio">16:9</string>
+    <string name="user_saved">user saved</string>
+    <string name="user_not_saved">Error, user not saved.</string>
+    <string name="main_hint_url">(url)</string>
+    <string name="main_lblWeb">Web</string>
+    <string name="main_lblName">Name</string>
+    <string name="main_lblEmail">email</string>
+    <string name="main_lblPhonenumber">Phone number</string>
+    <string name="main_hint_txtEmail">(email)</string>
+    <string name="main_hint_Phonenumber">(phone)</string>
+    <string name="main_txtName_hint">(name)</string>
+    <string name="main_lblAddress">Address</string>
+    <string name="main_txtAddress_hint">(address)</string>
+    <!-- END DO NOT TOUCH -->
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="main_txtWeb_width">311dp</dimen>
+    <dimen name="main_txtWeb_height">41dp</dimen>
+    <dimen name="main_lblWeb_marginTop">8dp</dimen>
+    <dimen name="main_marginTop_lblName">8dp</dimen>
+    <dimen name="main_marginTop_lblEmail">16dp</dimen>
+    <dimen name="main_marginTop_Phonenumber">16dp</dimen>
+    <dimen name="main_marginBottom_lblPhonenumber">8dp</dimen>
+    <dimen name="main_txtEmail_width">139dp</dimen>
+    <dimen name="main_txtEmail_height">41dp</dimen>
+    <dimen name="main_imgEmail_marginStart">8dp</dimen>
+    <dimen name="main_imgEmail_marginEnd">8dp</dimen>
+    <dimen name="main_txtPhonenumber_width">136dp</dimen>
+    <dimen name="main_txtPhonenumber_height">38dp</dimen>
+    <dimen name="main_txtPhonenumber_marginStart">28dp</dimen>
+    <dimen name="main_txtPhonenumber_marginTop">20dp</dimen>
+    <dimen name="main_imgPhonenumber_marginStart">8dp</dimen>
+    <dimen name="main_imgPhonenumber_marginEnd">16dp</dimen>
+    <dimen name="main_txtName_marginTop">4dp</dimen>
+    <dimen name="main_txtName_marginEnd">8dp</dimen>
+    <dimen name="main_lblAddress_marginTop">8dp</dimen>
+    <dimen name="main_txtAddress_marginEnd">8dp</dimen>
+    <dimen name="main_imgAddress_marginEnd">8dp</dimen>
+    <dimen name="main_imgWeb_marginEnd">8dp</dimen>
+    <dimen name="main_guideline_constraintGuide_beguin">8dp</dimen>
+    <dimen name="main_lblAvatar_heigth">17dp</dimen>
+    <dimen name="main_lblAvatar_marginStart">8dp</dimen>
+    <dimen name="main_lblAvatar_marginTop">8dp</dimen>
+    <dimen name="main_lblAvatar_marginEnd">8dp</dimen>
+    <dimen name="main_lblAvatar_marginBottom">8dp</dimen>
+</resources>

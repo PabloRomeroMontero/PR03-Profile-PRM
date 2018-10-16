@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DO NOT TOUCH -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorError">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="color_lbl_background_avatar">#9E9E9E</color>
+    <color name="color_text_avatar">#FFFF</color>
+    <!-- END DO NOT TOUCH -->
+</resources>
