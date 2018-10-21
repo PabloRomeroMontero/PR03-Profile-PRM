@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
+        // QUITA LOS COMENTARIOS TODO CUANDO LO IMPLEMENTES
         // TODO
     }
 
@@ -73,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
         initAvatar();
         imgAvatar.setOnClickListener(v -> changeAvatar());
         lblAvatar.setOnClickListener(v -> changeAvatar());
+        // EL CÓDIGO DE LOS onFocusChange ES PRÁCTICAMENTE EL MISMO. DEFINE UN MÉTODO.
         txtAddress.setOnFocusChangeListener((v, hasFocus) -> {
             if (hasFocus)
                 lblAddress.setTypeface(Typeface.DEFAULT_BOLD);
@@ -182,6 +184,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    // EL CÓDIGO DE TODOS ESTOS MÉTODOS validate... ES PRÁCTICAMENTE EL MISMO.
+    // DEFINE UN MÉTODO QUE RECIBA ENTRE OTRAS COSAS UN BOOLEANO INDICATIVO DE SI
+    // EL CAMPO ES VÁLIDO O NO Y QUE REALICE LOS CAMBIOS VISUALES OPORTUNOS.
     private boolean validateWeb() {
         boolean result = false;
         if (!ValidationUtils.isValidUrl(txtWeb.getText().toString())) {
@@ -267,6 +272,7 @@ public class MainActivity extends AppCompatActivity {
         boolean phoneNumber = validatePhoneNumber();
         boolean web = validateWeb();
 
+        // DEFINE UN MÉTODO isFormValid()
         if (address&&name&&email&&phoneNumber&&web) {
             result = true;
         }
@@ -275,6 +281,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initAvatar() {
         imgAvatar.setImageResource(Database.getInstance().getDefaultAvatar().getImageResId());
+        // ESTAS DOS LÍNEAS SE REPITEN EN EL SIGUIENTE MÉTODO. DEFINE UN MÉTODO showAvatar(avatar)
         lblAvatar.setText(Database.getInstance().getDefaultAvatar().getName());
         imgAvatar.setTag(Database.getInstance().getDefaultAvatar().getImageResId());
     }
